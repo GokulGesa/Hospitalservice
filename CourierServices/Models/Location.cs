@@ -10,5 +10,6 @@ namespace CourierServices.Models
         public int LocationId { get; set; }
         public string LocationCode { get; set; }
         public string LocationName { get; set; }
+        public int UpdFlag { get; set; }
     }
 }

@@ -13,5 +13,8 @@ namespace CourierServices.Models
         public string TestType { get; set; }
         public string ElementName { get; set; }
         public int TestMultipleComponentsID { get; set; }
+        public string FreeTemplateText { get; set; }
+        public string FreeTemplateValue { get; set; }
+
     }
 }

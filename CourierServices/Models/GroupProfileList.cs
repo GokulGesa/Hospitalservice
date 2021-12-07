@@ -14,5 +14,13 @@ namespace CourierServices.Models
         public double Amount { get; set; }
         public string MrdNo { get; set; }
         public string GroupName { get; set; }
+        //for test     
+        public int GroupTestListId { get; set; }
+        public string TestCode { get; set; }
+        public string TestName { get; set; }
+        public double TstAmount { get; set; }
+        public int DeleteFlag { get; set; }
+        public string BiospyAbbrevation { get; set; }
+        public string BiospyFlag { get; set; }
     }
 }

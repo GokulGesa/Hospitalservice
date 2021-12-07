@@ -11,6 +11,7 @@ namespace CourierServices.Models
         public string InsuranceOrginID { get; set; }
         public string InsuranceName { get; set; }
         public string InsuranceCreatDate { get; set; }
-        public double Amount { get; set; }      
+        public double Amount { get; set; }     
+        public string Location { get; set; } 
     }
 }

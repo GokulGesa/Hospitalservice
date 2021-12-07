@@ -17,5 +17,8 @@ namespace CourierServices.Models
         public int iUploadedCnt { get; set; }
         public string UploadStatus { get; set; }
         public string TestName { get; set; }
+
+
+
     }
 }

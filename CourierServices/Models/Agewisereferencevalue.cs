@@ -27,5 +27,6 @@ namespace CourierServices.Models
         public string ElementName { get; set; }
         public string Sex { get; set; }
         public string AgeMerge { get; set; }
+        public string MrdNo { get; set; }
     }
 }

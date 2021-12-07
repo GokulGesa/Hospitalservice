@@ -10,5 +10,6 @@ namespace CourierServices.Models
         public int DepartmentID { get; set; }
         public string DepartmentName { get; set; }
         public string CreateDate { get; set; }
+        public double Priority { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace CourierServices.Models
     {
         public int resultlabtestID { get; set; }
         public int RegId { get; set; }
+        public string PatientID { get; set; }
         public string MrdNo { get; set; }
         public string TestName { get; set; }
         public string TestCode { get; set; }
@@ -38,6 +39,43 @@ namespace CourierServices.Models
         public string NormalValuesFiled { get; set; }
         public int Status { get; set; }
         public bool select { get; set; }
+        public string Sex { get; set; }
+        public string Age { get; set; }
+        public string saveFlag { get; set; }
+        public string confirmFlag { get; set; }
+        public string CancelFlag { get; set; }
+        public string TestCodeRef { get; set; }
+        public string Checkflag { get; set; }
+        public string TestType { get; set; }
+        public string ProfileName { get; set; }
+        public string Total { get; set; }
+        public string FinalResult { get; set; }
+        public string AmmendComment { get; set; }
+        public string PreHistory { get; set; }
+        public string CalculationPresent { get; set; }
+        public string Splcalculation { get; set; }
+        public string CalculationType { get; set; }
+        public int EditID { get; set; }
+        public string AmmendDate { get; set; }
 
+        public int DepartmentID { get; set; }
+        public string DepartmentName { get; set; }
+        public int TestPriority { get; set; }
+        public int SubProfilePriority { get; set; }
+        public int PriorityStatus { get; set; }
+        public string SampleName { get; set; }
+        public int AmendType { get; set; }
+        public string PregRefRange { get; set; }
+        public int mulTestCount { get; set; }
+        public string DisplayDeptName { get; set; }
+        public string DisplayProfileName { get; set; }
+        public string DisplayMultiTestName { get; set; }
+        public string MultiTestName { get; set; }
+
+        public string PatientName { get; set; }
+        public string outSrcdTAT { get; set; }
+        public string OutSrcdToName { get; set; }
+        public string OustSrced { get; set; }
+        public string HistoryDate { get; set;}
     }
 }

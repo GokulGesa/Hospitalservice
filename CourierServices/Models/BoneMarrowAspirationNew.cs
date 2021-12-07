@@ -19,5 +19,21 @@ namespace CourierServices.Models
         public string TemplateDescription { get; set; }
         public int Status { get; set; }
         public bool select { get; set; }
+        public string PatientID { get; set; }
+        public string CreatedDateTime { get; set; }
+        public string ByspyNo { get; set; }
+        public string Outsourced { get; set; }
+        public string Sex { get; set; }
+
+        public int MarkerID { get; set; }
+        public string MarkerName { get; set; }
+        public int MarkerPriority { get; set; }
+
+        public int ImmunoMarkerID { get; set; }
+        public string Clone { get; set; }
+        public string Results { get; set; }
+        public string Impressions { get; set; }
+        public string PriorityStatus { get; set; }
+
     }
 }

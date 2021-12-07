@@ -25,5 +25,6 @@ namespace CourierServices.Models
         public string ElementName { get; set; }
         public string Sex { get; set; }
         public string AgeMerge { get; set; }
+        public int Flag { get; set; }
     }
 }

@@ -8,8 +8,8 @@ namespace CourierServices.Models
     public class LabOrder
     {
         public int LabId { get; set; }
-        public int RegID { get; set; }
-        public int Age { get; set; }
+        public string RegID { get; set; }
+        public string Age { get; set; }
         public string PatientName { get; set; }
         public string MrdNo { get; set; }
         public string ReferredBy { get; set; }
@@ -42,5 +42,7 @@ namespace CourierServices.Models
 
         public string AccountHolderName { get; set; }
         public string AccountHolderNumber { get; set; }
+
+        public string ExternalId { get; set; }
     }
 }

@@ -9,7 +9,7 @@ namespace CourierServices.Models
     {
         //LaborderStatus Tabel
         public int LaborderStatusId { get; set; }
-        public int RegID { get; set; }
+        public string RegID { get; set; }
         public string MrdNo { get; set; }
         public string LabStatus { get; set; }
         public string LabOrderDate { get; set; }
@@ -68,8 +68,22 @@ namespace CourierServices.Models
         public string Result { get; set; }
         public string Comment1 { get; set; }
         public string Comment2 { get; set; }
-
+        public string PatientID { get; set; }
         public int count { get; set; }
+        public string TotalSamples { get; set; }
+        public string TotalEntered { get; set; }
+        public string TotalConfirmed { get; set; }
+        public string TotalApproved { get; set; }
+        public string PendApproval { get; set; }
 
+        public string FinalStatus { get; set; }
+        public int DayCount { get; set; }
+
+        public string LastPrintDate { get; set; }
+        public string PrintCount { get; set; }
+        public string LastEmailDate { get; set; }
+        public string EmailCount { get; set; }
+        public string InvoiceNo { get; set; }
+        public string InvoiceDate { get; set; }
     }
 }

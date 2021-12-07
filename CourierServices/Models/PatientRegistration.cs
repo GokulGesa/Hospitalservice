@@ -7,7 +7,8 @@ namespace CourierServices.Models
 {
     public class PatientRegistration
     {
-        public int RegID { get; set; }
+        public int ID { get; set; }
+        public string RegID { get; set; }
         public string Title { get; set; }
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
@@ -18,7 +19,7 @@ namespace CourierServices.Models
         public string Sex { get; set; }
         public string MaritalStatus { get; set; }
         public string DOB { get; set; }
-        public int Age { get; set; }
+        public string Age { get; set; }
         public string DateOfReg { get; set; }
         public string PhoneNumber { get; set; }
         public byte[] ProfilePicture { get; set; }
@@ -31,6 +32,8 @@ namespace CourierServices.Models
 
         public int UnknownAge { get; set; }
         public string AgeCategory { get; set; }
+        public string PatientID { get; set; }
+        public string ExternalID { get; set; }
     }
 }
 

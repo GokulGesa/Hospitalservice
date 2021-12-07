@@ -22,6 +22,7 @@ namespace CourierServices.Models
         public string NormalValues { get; set; }
         public int PriorityStatus { get; set; }
         public string ElementMatch { get; set; }
-
+        public int ElementId { get; set; }
+        public int Flag { get; set; }
     }
 }

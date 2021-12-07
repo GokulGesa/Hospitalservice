@@ -6,8 +6,7 @@ using System.Web;
 namespace CourierServices.Models
 {
     public class Invoice
-    {
-        
+    {        
         public int Id { get; set; }
         public int RegID { get; set; }
         public string PatientName { get; set; }

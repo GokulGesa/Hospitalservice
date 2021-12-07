@@ -12,5 +12,6 @@ namespace CourierServices.Models
         public string CollectedName { get; set; }
         public string Date { get; set; }
         public int Amount { get; set; }
+        public int CollectFlag { get; set; }
     }
 }

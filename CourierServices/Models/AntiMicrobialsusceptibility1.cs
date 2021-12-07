@@ -13,6 +13,9 @@ namespace CourierServices.Models
         public string Agent { get; set; }
         public string zoneInhibition { get; set; }
         public string Interpretation { get; set; }
+        public int CultureId { get; set; }
+        public string MicrobialComment { get; set; }
+        public string PatientID { get; set; }
     }
 }
 

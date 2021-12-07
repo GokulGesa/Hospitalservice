@@ -28,6 +28,7 @@ namespace CourierServices.Models
         public string NormalValuesFiled { get; set; }
         public int Status { get; set; }
         public bool select { get; set; }
+        public string ProfileName { get; set; }
 
     }
 }

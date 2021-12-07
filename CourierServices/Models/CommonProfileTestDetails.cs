@@ -16,5 +16,7 @@ namespace CourierServices.Models
         public string Code { get; set; }
         public string Discount { get; set; }
         public string NetAmount { get; set; }
+        public string Action { get; set; }
+        public string TotalAmount { get; set; }
     }
 }

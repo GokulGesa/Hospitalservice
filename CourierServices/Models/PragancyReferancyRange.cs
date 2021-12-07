@@ -15,6 +15,7 @@ namespace CourierServices.Models
         public string SecondTrimester { get; set; }
         public string ThirdTrimester { get; set; }
         public string CreateDate { get; set; }
+        public int Flag { get; set; }
              
     }
 }

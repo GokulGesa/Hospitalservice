@@ -10,5 +10,6 @@ namespace CourierServices.Models
         public int Id { get; set; }
         public string RoleName { get; set; }
         public string status { get; set; }
+        public string Flag { get; set; }
     }
 }

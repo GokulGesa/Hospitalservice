@@ -13,5 +13,6 @@ namespace CourierServices.Models
         public string TestCode { get; set; }
         public string TestName { get; set; }
         public string CreatedDate { get; set; }
+        public int PriorityStatus { get; set; }
     }
 }

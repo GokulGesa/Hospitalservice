@@ -17,6 +17,7 @@ namespace CourierServices.Models
         public string MrdNo { get; set; }
         public string Discount { get; set; }
         public string NetAmount { get; set; }
-
+        public string flag { get; set; }
+        public string BillFrom { get; set; }
     }
 }

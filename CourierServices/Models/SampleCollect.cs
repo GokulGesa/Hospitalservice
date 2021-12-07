@@ -18,5 +18,13 @@ namespace CourierServices.Models
         public string ProfileCode { get; set; }
         public string ProfileName { get; set; }
         public int ProfilePriority { get; set; }
+
+        public string collected { get; set; }
+        public string Notcollected { get; set; }
+        public string Later { get; set; }
+
+
+        public string SampleContainer { get; set; }
+
     }
 }

@@ -15,5 +15,8 @@ namespace CourierServices.Models
         public string MrdNo { get; set; }
         public string Discount { get; set; }
         public string NetAmount { get; set; }
+        public int Flag { get; set; }
+        public string BiospyAbbrev { get; set; }
+        public string BiospyFlag { get; set; }
     }
 }

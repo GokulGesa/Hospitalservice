@@ -56,7 +56,11 @@ namespace CourierServices.Models
         public string commonParagraph { get; set; }
         public string UrineCulture { get; set; }
         public string AgewiseSexReferenceValue { get; set; }
-        public int ProfilePriority { get; set; }
-        public int TestPriority { get; set; }
+        public double ProfilePriority { get; set; }
+        public double TestPriority { get; set; }
+        public string CultureCategory { get; set; }
+
+        public string BiospyAbbrevation { get; set; }
+
     }
 }

@@ -22,7 +22,7 @@ namespace CourierServices.Models
         public string Sex { get; set; }
         public string MaritalStatus { get; set; }
         public string DOB { get; set; }
-        public int Age { get; set; }
+        public string Age { get; set; }
         public string DateOfReg { get; set; }
         public long PhoneNumber { get; set; }
         public byte[] ProfilePicture { get; set; }

@@ -12,5 +12,7 @@ namespace CourierServices.Models
         public string HospitalName { get; set; }
         public string OutOfHospitalCreatDate { get; set; }
         public double Amount { get; set; }
+        public string LocationName { get; set; }
+        public string LocationCode { get; set; }
     }
 }

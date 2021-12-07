@@ -80,6 +80,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -179,6 +184,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AddOtherTest.cs" />
+    <Compile Include="Models\Addprofile.cs" />
     <Compile Include="Models\AddTitle.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -199,6 +206,7 @@
     <Compile Include="Models\Alternativesamplecontainer.cs" />
     <Compile Include="Models\AntiMicrobialsusceptibility1.cs" />
     <Compile Include="Models\AntiMicrobialsusceptibility2.cs" />
+    <Compile Include="Models\AntiMicrobialsusceptibilityNew.cs" />
     <Compile Include="Models\Approver.cs" />
     <Compile Include="Models\BarCode.cs" />
     <Compile Include="Models\BioInfoLabView.cs" />
@@ -206,8 +214,10 @@
     <Compile Include="Models\boneMarrowAspiration.cs" />
     <Compile Include="Models\BoneMarrowAspirationNew.cs" />
     <Compile Include="Models\calculationForTestDetails.cs" />
+    <Compile Include="Models\CancelledInvoice.cs" />
     <Compile Include="Models\ChildTestList.cs" />
     <Compile Include="Models\Class1.cs" />
+    <Compile Include="Models\Class2.cs" />
     <Compile Include="Models\CollectedAt.cs" />
     <Compile Include="Models\CommanSampleContainer.cs" />
     <Compile Include="Models\CommonInstrumentReagent.cs" />
@@ -215,6 +225,7 @@
     <Compile Include="Models\CommonProfileTestDetails.cs" />
     <Compile Include="Models\corporate.cs" />
     <Compile Include="Models\CountApprover.cs" />
+    <Compile Include="Models\CultureMaster.cs" />
     <Compile Include="Models\CultureTestResult.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\DisplayTest.cs" />
@@ -230,11 +241,13 @@
     <Compile Include="Models\GroupRegistration.cs" />
     <Compile Include="Models\GroupTestList.cs" />
     <Compile Include="Models\HomeDetails.cs" />
+    <Compile Include="Models\HospitalLinkDoctors.cs" />
     <Compile Include="Models\ImageforTest.cs" />
     <Compile Include="Models\Insurance.cs" />
     <Compile Include="Models\InsuranceAdminLevel.cs" />
     <Compile Include="Models\InsuranceProfileList.cs" />
     <Compile Include="Models\InsuranceTestList.cs" />
+    <Compile Include="Models\IsolatedOrganisms.cs" />
     <Compile Include="Models\LabOrderInprogressList.cs" />
     <Compile Include="Models\LabOrderMasterList.cs" />
     <Compile Include="Models\LaborderStatus.cs" />
@@ -243,9 +256,12 @@
     <Compile Include="Models\LabTechGrid.cs" />
     <Compile Include="Models\LabTechResult.cs" />
     <Compile Include="Models\LabTechTestListByProfile.cs" />
+    <Compile Include="Models\LabTestandProfileDetails.cs" />
     <Compile Include="Models\LabTestList.cs" />
+    <Compile Include="Models\LabViewResultDetails.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\MailNotification.cs" />
+    <Compile Include="Models\markermaster.cs" />
     <Compile Include="Models\MultipleComponentswithCalculation.cs" />
     <Compile Include="Models\OutofHospital.cs" />
     <Compile Include="Models\Invoice.cs" />
@@ -262,6 +278,7 @@
     <Compile Include="Models\PaPSmear.cs" />
     <Compile Include="Models\ParentPaymentHospital.cs" />
     <Compile Include="Models\ParentPaymentInsurance.cs" />
+    <Compile Include="Models\pathostatus.cs" />
     <Compile Include="Models\PatientAllLabStatusInfo.cs" />
     <Compile Include="Models\PatientAllRegistrationInfo.cs" />
     <Compile Include="Models\PatientContactInfo.cs" />
@@ -272,7 +289,9 @@
     <Compile Include="Models\ParentPaymentReceived.cs" />
     <Compile Include="Models\PersonalInfo.cs" />
     <Compile Include="Models\PragancyReferancyRange.cs" />
+    <Compile Include="Models\PrintReport.cs" />
     <Compile Include="Models\ProfileSampleContainer.cs" />
+    <Compile Include="Models\ProfileWithInProfile.cs" />
     <Compile Include="Models\ProgressTable.cs" />
     <Compile Include="Models\RateCard.cs" />
     <Compile Include="Models\Registration.cs" />
@@ -281,9 +300,15 @@
     <Compile Include="Models\SampleContainersByMrdNo.cs" />
     <Compile Include="Models\Sampletestlist.cs" />
     <Compile Include="Models\SignUp.cs" />
+    <Compile Include="Models\subprofile.cs" />
+    <Compile Include="Models\TableViewPrint.cs" />
     <Compile Include="Models\Templates.cs" />
     <Compile Include="Models\TestCalculation.cs" />
+    <Compile Include="Models\TestCodeandPriority.cs" />
     <Compile Include="Models\TestMultipleComponents.cs" />
+    <Compile Include="Models\ViewListCount.cs" />
+    <Compile Include="Models\ViewListDetails.cs" />
+    <Compile Include="Models\ViewListNew.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

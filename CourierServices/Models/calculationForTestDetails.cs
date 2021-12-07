@@ -19,6 +19,7 @@ namespace CourierServices.Models
         public string CalculationCategory { get; set; }
         public string NormalValues { get; set; }
         public string ElementsCalculationType { get; set; }
+        public int Flag { get; set; }
 
     }
 }

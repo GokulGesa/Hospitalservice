@@ -16,5 +16,7 @@ namespace CourierServices.Models
 
         public string SignatureImageName { get; set; }
         public string SignatureImagePath { get; set; }
+        public int Flag { get; set; }
+        public string errorMsg { get; set; }
     }
 }

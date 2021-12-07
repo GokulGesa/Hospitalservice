@@ -14,7 +14,18 @@ namespace CourierServices.Models
         public string GroupCreatDate { get; set; }
         public double Amount { get; set; }
         public string HospitalName { get; set; }
-        
+        public string HospLocation { get; set; }
+        public int HospitalID { get; set; }
+        public string RefferedBy { get; set; }
+        public string PaymentMode { get; set; }
+        public string PaidAmount { get; set; }
+        public string NetAmount { get; set; }
 
+        public string ProfileCode { get; set; }
+        public string ProfileName { get; set; }
+        public string TestCode { get; set; }
+        public string TestName { get; set; }
+        public string SampleCollect { get; set; }
+        public string ClientCode { get; set; }
     }
 }

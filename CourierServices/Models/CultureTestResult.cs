@@ -22,7 +22,13 @@ namespace CourierServices.Models
         public string ColonyCount2 { get; set; }
         public string Comments2 { get; set; }
         public string Remarks { get; set; }
-        public string Status { get; set; }      
+        public string Status { get; set; }
+        public string PatientID { get; set; }
+        public string NegComment { get; set; }
+        public string CulComments { get; set; }
+        public string QualityScore { get; set; }
+        public string FastBacilli { get; set; }
+
     }
 }
 
